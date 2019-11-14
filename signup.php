@@ -29,7 +29,7 @@ $result_1 = pg_query($db_connection,$query_1);
     //$_SESSION['logged_in'] = "logged_in";
     
     //change to homepage for members
-header('index.html');
+header('Location: index.html');
 //}else{
   //  header('Location: user_exists.html');
 //}
