@@ -31,7 +31,7 @@ $result_1 = pg_query($db_connection,$query_1);
 	//change to homepage for members
 	
 	$send_email = 'jbperry1998@gmail.com';
-	//$send_password = '@Hoocooks19';
+	$send_password = 'stealers6598';
 	//session_start();
 	//$email = $_SESSION['email'];
 	//$product = $_SESSION['product'];
