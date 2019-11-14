@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 
 $db_connection = pg_connect("host=ec2-107-21-125-211.compute-1.amazonaws.com
  port=5432 dbname=dklt353ih2mrc user=osduvaztmivaka password=b4846020edb6da15efb7cc45ee5f45127c761cc4884a8479ec6ae8d7a2b5a138
@@ -21,15 +21,15 @@ $last_name = $_POST['last_name'];
 
 
 //if(!$user) {
-    $query_1 = "INSERT INTO customers VALUES('$first_name','$last_name','$email','$address','$city','$state','$zip')";
-    $result_1 = pg_query($db_connection,$query_1);
+$query_1 = "INSERT INTO customers VALUES('$first_name','$last_name','$email','$address','$city','$state','$zip')";
+$result_1 = pg_query($db_connection,$query_1);
     
     //$_SESSION['username'] = $username;
     //$_SESSION['email'] = $email;
     //$_SESSION['logged_in'] = "logged_in";
     
     //change to homepage for members
-    header('demo.html');
+header('index.html');
 //}else{
   //  header('Location: user_exists.html');
 //}
