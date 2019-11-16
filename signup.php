@@ -30,8 +30,8 @@ $result_1 = pg_query($db_connection,$query_1);
     
 	//change to homepage for members
 	
-	$send_email = 'jbperry1998@gmail.com';
-	$send_password = 'stealers6598';
+	$send_email = 'hoocooks@gmail.com';
+	$send_password = '@Hoocooks19';
 	//session_start();
 	//$email = $_SESSION['email'];
 	//$product = $_SESSION['product'];
@@ -66,9 +66,9 @@ $result_1 = pg_query($db_connection,$query_1);
 		/* Open the try/catch block. */
 		try {
 		   /* Set the mail sender. */
-		   $mail->Username = 'jbperry1998@gmail.com';
+		   $mail->Username = 'hoocooks@gmail.com';
 		   //Password to use for SMTP authentication
-		   $mail->Password = 'stealers6598';
+		   $mail->Password = '@Hoocooks19';
 		   $mail->setFrom($send_email, 'U-Chef');
 		
 		   /* Add a recipient. */
